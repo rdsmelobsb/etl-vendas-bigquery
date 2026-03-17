@@ -43,4 +43,3 @@ Com as variáveis de ambiente configuradas e os nomes do seu Projeto/Dataset atu
 python etl-venda.py
 ```
 O console mostrará o passo a passo, a identificação da última data inserida no BigQuery e o total de linhas novas adicionadas.
-Como mencionamos na documentação a possibilidade de rodar isso no **GitHub Actions** (que é onde esse código realmente brilha, automatizando a tarefa de atualizar o banco todos os dias sem você precisar apertar nenhum botão), você gostaria que eu criasse o arquivo `.yml` responsável por fazer essa automação acontecer lá no seu GitHub?
